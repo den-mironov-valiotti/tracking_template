@@ -1,7 +1,7 @@
 
 // add to form tracking
- gtag('get', 'G-0DV54HZ9MB', 'session_id', (id) => { console.log(id); } ); // get session_id
- gtag('get', 'G-0DV54HZ9MB', 'client_id', (id) => { console.log(id); } ); //get client_id
+ gtag('get', 'G-XXXXXXXXXX', 'session_id', (id) => { console.log(id); } ); // get session_id
+ gtag('get', 'G-XXXXXXXXXX', 'client_id', (id) => { console.log(id); } ); //get client_id
   var referrer = document.referrer; // referrer
   var pageUrl = window.location.href; // full url
 // and get utms and ref/pageUrl/cleanUrl - from session storage if current url doenst have them
